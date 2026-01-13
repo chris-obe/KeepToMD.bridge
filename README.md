@@ -9,7 +9,16 @@ Local HTTP bridge for Google Keep using `gkeepapi`.
 ## Requirements
 - Python 3.10+
 
-## Setup
+## Quick start
+```bash
+git clone https://github.com/chris-obe/KeepToMD.bridge.git
+cd KeepToMD-bridge
+./setup.sh
+# or run immediately:
+./setup.sh --run
+```
+
+## Manual setup
 ```bash
 python -m venv .venv
 source .venv/bin/activate
