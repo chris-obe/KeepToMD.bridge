@@ -2,6 +2,13 @@
 
 Local HTTP bridge for Google Keep using `gkeepapi`.
 
+## Related repositories
+- KeepToMD (web app): https://github.com/chris-obe/KeepToMD
+- KeepToMD-bridge (this repo): https://github.com/chris-obe/KeepToMD-bridge
+
+## Maintainers
+- @chris-obe (Lightpilot)
+
 ## What it does
 - Exposes a local API your web app can call.
 - Keeps credentials local to the machine.
@@ -77,3 +84,13 @@ This flow is unofficial and may break if Google changes its login flow.
 ## Token storage
 - If `keyring` is installed, the bridge stores the master token in your OS keychain.
 - Otherwise it falls back to a local config file at `~/.keeptomd/bridge.json`.
+
+## Issues
+- KeepToMD issues: https://github.com/chris-obe/KeepToMD/issues
+- KeepToMD-bridge issues: https://github.com/chris-obe/KeepToMD-bridge/issues
+
+## Credits and third-party projects
+- gkeepapi: https://github.com/kiwiz/gkeepapi (maintained by @kiwiz)
+- gpsoauth: https://github.com/simon-weber/gpsoauth (maintained by @simon-weber)
+
+If you distribute or modify the bridge, follow those projects' licensing and attribution requirements.
